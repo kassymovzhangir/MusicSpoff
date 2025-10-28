@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рэп</title>
+    <link rel="stylesheet" href="rap.css">
+    <link rel="website icon" href="https://static.vecteezy.com/system/resources/previews/027/818/590/original/rap-logo-design-inspiration-for-a-unique-identity-modern-elegance-and-creative-design-watermark-your-success-with-the-striking-this-logo-vector.jpg">
+</head>
+<body>
+    <button onclick="window.location.href='file:///C:/Users/%D0%96%D0%B0%D0%BD%D0%B3%D0%B8%D1%80/Documents/Musicspoof/spoff.html'">Назад</button><br>
+    <h1 style="color:blue">Треки</h1>
+    <hr></hr>
+    <h1>Слушайте и скачивайте</h1>
+    <div class="tracks">
+        <div class="audio">
+            <audio src="C:\Users\Жангир\Downloads\Miyagi_Rem_Digga_-_I_Got_Love_47828425.mp3"controls></audio>
+            <button class="download">↓</button>
+        </div>
+        <div class="audio">
+            <audio src="C:\Users\Жангир\Downloads\GaoDagamo_Nesvyat_feat_Miyagi_-_Na_uverennom_73773267.mp3"controls></audio>
+            <button class="download">↓</button>
+        </div>
+        <div class="audio">
+            <audio src="C:\Users\Жангир\Downloads\Rajjm_i_Artur_-_Disco_66615111.mp3"controls></audio>
+            <button class="download">↓</button>
+        </div>
+        <div class="audio">
+            <audio src="C:\Users\Жангир\Downloads\Miyagi & Эндшпиль - Saloon.mp3"controls></audio>
+            <button class="download">↓</button>
+        </div>
+        <div class="audio">
+            <audio src="C:\Users\Жангир\Downloads\Ollane feat. MiyaGi - Touch The Sky.mp3"controls></audio>
+            <button class="download">↓</button>
+        </div>
+    </div><br><br>
+    <a href="#"onclick="document.querySelectorAll('.audio-1').forEach(e => e.style.display = 'block');event.preventDefault();">Еще</a>
+    <div class="tracks">
+    <div class="audio-1">
+        <audio src="C:\Users\Жангир\Downloads\MiyaGi_Andy_Panda_-_Burevestnik_73616621.mp3"controls></audio>
+        <button class="download"download="MiyaGi_Andy_Panda_-_Burevestnik_73616621.mp3">↓</button>
+    </div>
+    <div class="audio-1">
+        <audio src="C:\Users\Жангир\Downloads\Miyagi & Эндшпиль - Круговорот.mp3"controls></audio>
+        <button class="download"download="Miyagi & Эндшпиль - Круговорот.mp3">↓</button>
+    </div>
+    <div class="audio-1">
+        <audio src="C:\Users\Жангир\Downloads\Miyagi & Эндшпиль - Need Me.mp3"controls></audio>
+        <button class="download"download="Miyagi & Эндшпиль - Need Me.mp3">↓</button>
+    </div>
+    </div><br>
+     <footer id="musical">
+        <p style="color:white;font-size:45px">© 2025 Music-Spoff | Музыкальный проект</p>
+    </footer>
+    <style>
+        button{
+    background:darkblue;
+    height:36px;
+    width:213px;
+    border-radius: 45px;
+    border:none;
+    color:white;
+    font-size:21px;
+}
+button:hover{
+    border:4px inset blue;
+    background:white;
+    color:blue;
+    transition: all 1s ease-in-out;
+}
+h1{
+    font-size:34px;
+    animation:pop 1.2s ease-in-out infinite steps(5);
+    display: inline-block;
+}
+.tracks{
+    display: flex;
+    gap:23px;
+    justify-content: left;
+    flex-direction: column;
+}
+.audio{
+    display: flex;
+    gap:64px;
+    margin: 2px;
+}
+audio{
+    width:604px;
+}
+.download{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background: red;
+    border:5px solid red;
+    font-size:23px;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+.audio-1{
+    display: flex;
+    gap:94px;
+    margin: 2px;
+    display: none;
+}
+footer{
+    background:black;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color:white;
+}
+    </style>
+</body>
+</html>

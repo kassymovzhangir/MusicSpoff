@@ -1,0 +1,63 @@
+h1{
+    font-size:34px;
+    animation:pop 1.2s ease-in-out infinite steps(5);
+    display: inline-block;
+}
+@keyframes pop{
+    from{
+        width:0;
+    }
+    to{
+        width:100%;
+    }
+}
+.tracks{
+    display: flex;
+    gap:23px;
+    justify-content: left;
+    flex-direction: column;
+}
+audio{
+    width:679px;
+}
+footer{
+    background:black;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background:darkblue;
+    height:36px;
+    width:213px;
+    border-radius: 45px;
+    border:none;
+    color:white;
+    font-size:21px;
+}
+.audio{
+    display: flex;
+    gap:64px;
+    margin: 2px;
+}
+.audio-1{
+    display: flex;
+    gap:64px;
+    margin: 2px;
+    display: none;
+}
+.download{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background: red;
+    border:5px solid red;
+    font-size:23px;
+}
+button:hover{
+    border:4px inset blue;
+    background:white;
+    color:blue;
+    transition: all 1.2s ease-in-out;
+}

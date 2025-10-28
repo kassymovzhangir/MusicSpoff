@@ -1,0 +1,44 @@
+button{
+    background:darkblue;
+    height:36px;
+    width:213px;
+    border-radius: 45px;
+    border:none;
+    color:white;
+    font-size:21px;
+}
+.tracks{
+    display: flex;
+    gap:23px;
+    justify-content: left;
+    flex-direction: column;
+}
+.download{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background: red;
+    border:5px solid red;
+    font-size:23px;
+    color:white;
+}
+.audio{
+     display: flex;
+    gap:34px;
+}
+audio{
+    width:579px;
+}
+footer{
+    background-color: black;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    border:4px groove blue;
+    background:white;
+    color:blue;
+    transition: all 1.2s ease-in-out;
+}

@@ -1,0 +1,54 @@
+button{
+    background:darkblue;
+    height:36px;
+    width:213px;
+    border-radius: 45px;
+    border:none;
+    color:white;
+    font-size:21px;
+}
+.tracks{
+    display: flex;
+    gap:23px;
+    justify-content: left;
+    flex-direction: column;
+}
+footer{
+    background:black;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audio{
+    display: flex;
+    gap:34px;
+}
+audio{
+    width:679px;
+}
+.download{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background: red;
+    border:5px solid red;
+    color:white;
+    font-weight: 600;
+    font-size:22px;
+}
+button:hover{
+    border:4px groove blue;
+    background:white;
+    color:blue;
+    transition: all 1.2s ease-in-out;
+}
+.audio-1{
+    display: flex;
+    gap:34px;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}

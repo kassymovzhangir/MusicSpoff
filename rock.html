@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рок-Песни</title>
+    <link rel="stylesheet" href="rock.css">
+    <link rel="website icon" href="https://avatars.mds.yandex.net/i?id=367f288ab262e0900575a644fa444732_l-10310748-images-thumbs&n=13">
+</head>
+<body>
+    <button onclick="window.location.href='file:///C:/Users/%D0%96%D0%B0%D0%BD%D0%B3%D0%B8%D1%80/Documents/Musicspoof/spoff.html'">Назад</button><br>
+    <h1 style="color:blue;">Треки</h1><br>
+    <hr></hr>
+    <h1>Слушайте и скачивайте</h1>
+    <div class="tracks">
+        <div class="audio">
+        <audio src="C:\Users\Жангир\Downloads\Iron_Maiden_-_Fear_Of_The_Dark_47873095.mp3"controls></audio>
+        <a href="C:\Users\Жангир\Downloads\Iron_Maiden_-_Fear_Of_The_Dark_47873095.mp3"><button onclick="window.location.href='C:\Users\Жангир\Downloads\Iron_Maiden_-_Fear_Of_The_Dark_47873095.mp3'"download="mp3"class="download">↓</button></a>
+        </div>
+        <div class="audio">
+        <audio src="C:\Users\Жангир\Downloads\Iron_Maiden_-_Afraid_To_Shoot_Strangers_47956529.mp3"controls></audio>
+        <a href="C:\Users\Жангир\Downloads\Iron_Maiden_-_Afraid_To_Shoot_Strangers_47956529.mp3"download="C:\Users\Жангир\Downloads\Iron_Maiden_-_Afraid_To_Shoot_Strangers_47956529.mp3"><button onclick="window.location.href='C:\Users\Жангир\Downloads\Iron_Maiden_-_Afraid_To_Shoot_Strangers_47956529.mp3'"class="download">↓</button></a>
+        </div>
+        <div class="audio">
+        <audio src="C:\Users\Жангир\Downloads\Powerwolf_-_Extatum_Et_Oratum_47955288.mp3"controls></audio>
+        <a href="C:\Users\Жангир\Downloads\Powerwolf_-_Extatum_Et_Oratum_47955288.mp3"download="Powerwolf.mp3"><button class="download">↓</button></a>
+        </div>
+        <div class="audio">
+        <audio src="C:\Users\Жангир\Downloads\Manowar_-_Warriors_of_the_World_United_47956013.mp3"controls></audio>
+        <a href="C:\Users\Жангир\Downloads\Manowar_-_Warriors_of_the_World_United_47956013.mp3"download="Manowar.mp3"><button class="download">↓</button></a>
+        </div>
+        <div class="audio">
+        <audio src="C:\Users\Жангир\Downloads\Queen_-_Innuendo_47851922 (1).mp3"controls></audio>
+        <a href="C:\Users\Жангир\Downloads\Queen_-_Innuendo_47851922 (1).mp3"download="Queen_.mp3"><button class="download">↓</button></a>
+        </div>
+    </div><br>
+    <a href="#"onclick="document.querySelectorAll('.audio-1').forEach(el => el.style.display = 'block'); event.preventDefault();">Еще</a>
+    <div class="tracks">
+        <div class="audio-1">
+            <audio src="C:\Users\Жангир\Downloads\Manowar_-_Kingdom_Come_48161958.mp3"controls></audio>
+            <a href="C:\Users\Жангир\Downloads\Manowar_-_Kingdom_Come_48161958.mp3"download="Manowar_-_Kingdom_Come_48161958.mp3"><button class="download">↓</button></a>
+        </div>
+        <div class="audio-1">
+            <audio src="C:\Users\Жангир\Downloads\Scorpions_-_Send_Me_An_Angel_47852025.mp3"controls></audio>
+            <a href=""><button class="download">↓</button></a>
+        </div>
+        <div class="audio-1">
+            <audio src="C:\Users\Жангир\Downloads\Iron Maiden - Seventh Son Of A Seventh Son.mp3"controls></audio>
+            <a href="Iron Maiden - Seventh Son Of A Seventh Son.mp3"><button class="download">↓</button></a>
+        </div>
+    </div><br>
+    <footer id="musical">
+        <p style="color:white;font-size:45px">© 2025 Music-Spoff | Музыкальный проект</p>
+    </footer>
+    <style>
+        button{
+    background:darkblue;
+    height:36px;
+    width:213px;
+    border-radius: 45px;
+    border:none;
+    color:white;
+    font-size:21px;
+}
+.tracks{
+    display: flex;
+    gap:23px;
+    justify-content: left;
+    flex-direction: column;
+}
+footer{
+    background:black;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.audio{
+    display: flex;
+    gap:34px;
+}
+audio{
+    width:679px;
+}
+.download{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background: red;
+    border:5px solid red;
+    color:white;
+    font-weight: 600;
+    font-size:22px;
+}
+button:hover{
+    border:4px groove blue;
+    background:white;
+    color:blue;
+    transition: all 1.2s ease-in-out;
+}
+.audio-1{
+    display: flex;
+    gap:34px;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color:blue;
+}
+    </style>
+</body>
+</html>
